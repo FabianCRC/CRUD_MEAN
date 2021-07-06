@@ -4,12 +4,7 @@ GET http://localhost:4000/api/employees
 POST http://localhost:4000/api/employees
 Content-Type: application/json
 
-{
-    "name": "prueba",
-    "position": "Developer",
-    "office": "Cartago",
-    "salary": 22000
-}
+{"name": "a", "position": "a", "office": "a", "salary": 0}
 
 ###
 GET http://localhost:4000/api/employees/60e3edaad13b8d1338c1ec28
